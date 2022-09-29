@@ -65,7 +65,7 @@ public class BACnetDriver implements DriverService {
     private volatile boolean deviceScanInterrupted = false;
     private final Object lock = new Object();
 
-    private final static DriverInfo driverInfo = new DriverInfo("bacnet", // id
+    private final static DriverInfo driverInfo = new DriverInfo("bacnet-write", // id
             // description
             "BACnet/IP communication protocol driver",
             // device address
